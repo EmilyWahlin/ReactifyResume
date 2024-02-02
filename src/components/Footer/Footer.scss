@@ -1,0 +1,28 @@
+.footer {
+	padding: 20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	button {
+		background-color: #8cc797;
+		color: white;
+		padding: 10px 15px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+		&:hover {
+			background-color: #45a049;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+	}
+
+
+}

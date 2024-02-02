@@ -1,0 +1,111 @@
+.main__container {
+	padding: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content__container {
+	display: flex;
+	align-items: center;
+}
+
+.picture__container {
+	background-image: url(../../assets/cvselfie.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 300px;
+	height: 400px;
+	border-radius: 100px 0px 100px 0px;
+	margin-right: 50px;
+}
+
+.about__me {
+	flex: 1;
+	padding: 20px;
+	text-align: justify;
+	width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	background-color: #fff;
+	transition: box-shadow 0.3s ease-in-out;
+
+	&:hover {
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	}
+
+	.intro {
+		color: #000000;
+		font-size: 36px;
+		margin-bottom: 20px;
+
+
+		&.dark-mode {
+			color: #fff;
+		}
+	}
+
+	.intro__paragraph {
+		color: #000000;
+		font-size: 18px;
+		line-height: 1.5;
+		margin-bottom: 20px;
+
+
+		&.dark-mode {
+			color: #fff;
+		}
+	}
+}
+
+
+.button__links {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+
+	.projekt__link,
+	.CV__link,
+	.kontakt__link {
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		background-color: #8cc797;
+		padding: 40px;
+		border-radius: 150px;
+		transition: background-color 0.3s ease;
+
+		&:hover {
+			background-color: #4f7656;
+		}
+	}
+}
+
+.dark-mode {
+	background-color: #1a1a1a;
+	color: #fff;
+
+	.button__links .projekt__link,
+	.button__links .CV__link,
+	.button__links .kontakt__link {
+		background-color: #333;
+
+		&:hover {
+			background-color: #858585;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.main__container {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 250px;
+	}
+
+	.picture__container {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
+

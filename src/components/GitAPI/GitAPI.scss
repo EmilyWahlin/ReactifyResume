@@ -1,0 +1,29 @@
+.github__section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin: 20px;
+}
+
+.github__article {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+	.github__link {
+		text-decoration: none;
+		color: #0366d6;
+
+		.github__title {
+			margin: 0;
+			font-size: 18px;
+		}
+
+		// .github__description {
+		// 	margin: 8px 0 0;
+		// 	font-size: 14px;
+		// 	color: #586069;
+		// }
+	}
+}

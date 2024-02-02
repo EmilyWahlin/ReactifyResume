@@ -1,0 +1,35 @@
+.project__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 40px;
+	margin-bottom: 20px;
+
+
+	background-color: #fff;
+	/* Light mode background color */
+	color: #000;
+	/* Light mode text color */
+
+	&.dark-mode {
+		background-color: #000;
+		color: #fff;
+
+	}
+
+	h1 {
+		margin-top: 0;
+	}
+}
+
+
+
+
+@media (max-width: 768px) {
+	.project__container {
+		padding-top: 100px;
+
+	}
+}

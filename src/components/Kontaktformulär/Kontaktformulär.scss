@@ -1,0 +1,68 @@
+.contact-form {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: grey;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+
+
+
+	label {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	input,
+	textarea {
+		width: 100%;
+		padding: 8px;
+		margin-bottom: 15px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	button {
+		background-color: #8cc797;;
+		color: white;
+		padding: 10px 15px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	&.dark-mode {
+		background-color: #333;
+		/* Dark mode background color */
+		color: #fff;
+		/* Dark mode text color */
+
+		label,
+		input,
+		textarea {
+			// Add styles for dark mode text color
+			color: #fff !important;
+			/* !important to ensure the styles are applied */
+		}
+
+		button {
+			background-color: #1a1a1a;
+			/* Darker button color in dark mode */
+		}
+	}
+
+	@media (max-width: 768px) {
+
+		input,
+		textarea,
+		button {
+			width: 100%;
+		}
+
+		&.dark-mode {
+			margin-top: 200px;
+
+		}
+	}
+}
