@@ -1,8 +1,31 @@
-# React + Vite
+# Intro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a CV or personal website that I made for myself using React + Vite + Sass. I’ve also used react-icon library for my github and linkedin icons. You can toggle dark mode, look through my github gallery,  and check out my github repos.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# How to clone my git:
+
+You need to have node installed:
+
+npm install -g node
+
+Clone the repository:
+
+git clone https://github.com/EmilyWahlin/ReactifyResume.git
+
+Change into the project directory:
+
+cd your-repo
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+npm run start
+
+
